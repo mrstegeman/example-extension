@@ -13,7 +13,7 @@
   "description": "Example extension add-on for Mozilla WebThings Gateway",
   "gateway_specific_settings": {
     "webthings": {
-      "exec": "{nodeLoader} {path}",
+      "exec": "python3 {path}/main.py",
       "primary_type": "extension",
       "strict_max_version": "*",
       "strict_min_version": "0.10.0"
