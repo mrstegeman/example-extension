@@ -3,6 +3,7 @@
 from os import path
 import functools
 import signal
+import gateway_addon
 import sys
 import time
 
